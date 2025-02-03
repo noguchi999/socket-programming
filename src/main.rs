@@ -1,3 +1,3 @@
-fn main() {
-    println!("Hello, world!");
-}
+use std::env;
+#[macro_use]
+extern crate log;
