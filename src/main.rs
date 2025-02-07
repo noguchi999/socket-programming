@@ -10,4 +10,5 @@ mod udp_client;
 fn main() {
     env::set_var("RUST_LOG", "debug");
     env_logger::init();
+    let args: Vec<String> = env::args().collect();
 }
