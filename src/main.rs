@@ -15,4 +15,6 @@ fn main() {
         error!("Please specify [tcp|udp] [server|client] [addr:port].");
         std::process::exit(1);
     }
+
+    let protocol: &str = &args[1];
 }
