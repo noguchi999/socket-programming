@@ -17,4 +17,5 @@ fn main() {
     }
 
     let protocol: &str = &args[1];
+    let role: &str = &args[2];
 }
